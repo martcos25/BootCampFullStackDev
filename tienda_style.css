@@ -1,18 +1,25 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-nav ul li {
+.nav-title h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.nav-bar {
+  background-color: rgb(8, 30, 151);
+  display: flex;
+}
+
+.nav-items a {
+  color: white;
   display: inline-block;
-}
-
-h1 {
-  color: red;
-}
-
-h2 {
-  color: red;
 }
 
 a {
