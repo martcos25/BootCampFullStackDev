@@ -6,6 +6,30 @@
   <title>Conversion de Temperatura</title>
 </head>
 <body>
-  
+  <h1>Convertidor de Temperaturas</h1>
+  <h3>Instrucciones :</h3>
+  <ul>
+    <li>Seleccionar la clase de temperatura #1</li>
+    <li>Colocar la temperatura que desea convertir</li>
+    <li>Seleccionar a que clase #2 desea transformar</li>
+    <li>Hacer clic en el boton</li>
+  </ul>
+  <form action="submit">
+    <label for="temp1">Tipo: </label>
+    <select name="temp1" id="temp1">
+      <option value="C">Celsius</option>
+      <option value="F">Farenheit</option>
+      <option value="K">Kelvin</option>
+    </select>
+    <input type="number">
+    <label for="temp2">Convertir: </label>
+    <select name="temp2" id="temp2">
+      <option value="C">Celsius</option>
+      <option value="F">Farenheit</option>
+      <option value="K">Kelvin</option>
+    </select>
+    <button type="submit">Convert</button>
+    <span>El resultado es: </span>
+  </form>
 </body>
 </html>
