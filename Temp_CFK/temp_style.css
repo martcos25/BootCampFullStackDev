@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg,
+   rgba(7,29,151,1) 0%, 
+   rgba(6,96,162,1) 31%, 
+   rgba(228,130,9,1) 67%, 
+   rgba(249,87,0,1) 95%);
+}
+
+.container {
+  background-color: white;
+  border-radius: 30px;
+}
