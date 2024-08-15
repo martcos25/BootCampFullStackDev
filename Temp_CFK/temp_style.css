@@ -1,14 +1,27 @@
 body {
+  display: flex;
   margin: 0;
   padding: 0;
   background: linear-gradient(90deg,
-   rgba(7,29,151,1) 0%, 
-   rgba(6,96,162,1) 31%, 
-   rgba(228,130,9,1) 67%, 
-   rgba(249,87,0,1) 95%);
+   #071d97 0%, 
+   #0660a2 31%, 
+   #e48209 67%, 
+   #f95700 95%);
+   font-family: sans-serif, Arial, Helvetica, sans-serif;
+   justify-content: center;
 }
 
 .container {
+  text-align: center;
   background-color: white;
   border-radius: 30px;
+  padding: 12px;
+  min-width: 500px;
+  width: 80%;
+  align-items: center;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
 }
