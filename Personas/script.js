@@ -1,14 +1,24 @@
+//Botones
+const add_first = document.getElementById('add-first')
+const add_last = document.getElementById('add-last')
+const del_first = document.getElementById('del-first')
+const del_last = document.getElementById('del-last')
+
+
+let intlist = document.getElementById('intlist')
+let inter = document.getElementById('new-inter')
+
 //Clase de Personas con propiedades de nombre, edad e intereses
 class Person {
-  constructor(name, age, interest) {
+  constructor(name, age, interest=[]) {
     this.name = name;
     this.age = age;
     this.interest = interest;
     //interest sera un array de strings
   }
   //Metodo para añadir interes
-  addInterest(interest) {
-    return interest.push();
+  addInterest() {
+
   }
   //Metodo para borrar interes
   deleteInterest(interest) {
@@ -24,5 +34,5 @@ class Person {
   }
 }
 
-let someone = new Person("John Wilson", 50, ["Sleep", "Food", "Games"])
-console.log(someone.interest);
+let someone = new Person("John Wilson", 50 )
+console.log(someone.name);
