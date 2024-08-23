@@ -8,18 +8,21 @@ class Person {
   }
   //Metodo para añadir interes
   addInterest(interest) {
-
+    return interest.push();
   }
   //Metodo para borrar interes
   deleteInterest(interest) {
-
+    return interest.pop()
   }
   //Metodo para formatear intereses
   showInterests(interest) {
 
   }
   //Metodo para mostrar toda la informacion 
-  showInfo(interest) {
-
+  showInfo() {
+    
   }
 }
+
+let someone = new Person("John Wilson", 50, ["Sleep", "Food", "Games"])
+console.log(someone.interest);
